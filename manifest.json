@@ -9,6 +9,20 @@
             "js" : ["content_script.js"],
             "css" : ["content_style.css"]
 		}
+    ],
+    "background" : {
+		"scripts" : ["event_script.js"],
+		"persistent" : true
+	},
+	"commands" : {
+		"enable_click_killer" : {
+			"suggested_key" : {"default" : "Alt+Shift+2"},
+			"description" : "Change the extension icon"
+        }
+    },
+    "permissions" : [
+		"tabs",
+		"<all_urls>"
 	],
     "icons": {
         "512": "icon.png"
