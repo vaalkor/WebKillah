@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "ShowTime",
+    "description": "Extension to show the current time and date",
+    "version": "1.2",
+    "content_scripts" : [
+		{
+			"matches" : ["<all_urls>"],
+            "js" : ["content_script.js"],
+            "css" : ["content_style.css"]
+		}
+	],
+    "icons": {
+        "512": "icon.png"
+    }
+}
