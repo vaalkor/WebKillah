@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "ShowTime",
-    "description": "Extension to show the current time and date",
+    "name": "WebKillah",
+    "description": "Simple extension for easy deletion of bits of web pages.",
     "version": "1.2",
     "content_scripts" : [
 		{
@@ -16,8 +16,8 @@
 	},
 	"commands" : {
 		"enable_click_killer" : {
-			"suggested_key" : {"default" : "Alt+Shift+2"},
-			"description" : "Change the extension icon"
+			"suggested_key" : {"default" : "Ctrl+Shift+X"},
+			"description" : "Enable webpage element removal mode"
         }
     },
     "permissions" : [
